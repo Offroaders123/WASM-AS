@@ -47,7 +47,7 @@ class NBTReader {
     console.log(`root type: ${type}\n`);
 
     const name: string = this.readString();
-    const value: Tag = this.readTag(type);
+    // const value: Tag = this.readTag(type);
   }
 
   private readTag(type: TAG): Tag {
